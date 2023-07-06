@@ -1,0 +1,10 @@
+The essence of the Collections framework is the interface called 'Collection'.
+This interface defines the fundamental methods of the framework. List and Set interfaces extend the Collection interface by defining additional methods that are not present in the Collection interface, thus expanding the application scope of the framework.
+
+Interfaces only carry the method signatures; they do not contain the bodies
+(the actual code that performs the functions) of the methods, as classes do.
+
+Another important interface in the Collections framework is called Map
+However, the Map interface is not an extension of the Collection interface.
+ For reasons we will see later, the Map interface is not included in the
+ Collection hierarchy but is still a part of the Collections framework.
